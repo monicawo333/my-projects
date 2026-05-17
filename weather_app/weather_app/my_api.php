@@ -3,7 +3,7 @@
 header('Content-Type: application/json');
 
 // 🔒 your API key
-$API_KEY = "14cc08d81c32589c1e9392ca259e8396";
+$API_KEY = "06ac0bf7b12ee087e331f248688d4d9b";
 
 // Get city
 if (!isset($_GET['city']) || empty($_GET['city'])) {
