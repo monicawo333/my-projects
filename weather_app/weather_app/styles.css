@@ -1,0 +1,187 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;  
+   text-align: center;
+   background-image: url(https://images.unsplash.com/photo-1534271057238-c2c170a76672?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+   margin: 0;
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: column;
+}
+
+
+p {
+color: #444; /* soft gray*/
+font-family: italic bold;
+}
+
+#searchForm {
+
+  background: pink;
+  padding: 10px;
+  border-radius: 40px;
+  backdrop-filter: blur(10px);
+  display: inline-flex;
+}
+
+.InputBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%; /* adjust as needed */
+  max-width: 400px; /* adjust as needed */
+}
+
+#cityInput {
+  width: 100%;
+  padding: 12px 50px 12px 15px; /* extra padding on right for the button */
+  border: 0px solid #0a2540;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+}
+
+#cityInput:focus {
+  border-color: #7d4caf; /* change color when focused */
+}
+
+.InputBox button {
+  position: absolute;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.InputBox button:hover {
+  background-color:#18adb8;
+  backdrop-filter: blur(10px);
+}
+
+.weather-card h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #0a2540;
+}
+
+ .weather-card {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.forecast {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.day {
+  background: rgba(255, 255, 255, 0.693);
+  padding: 10px;
+  border-radius: 15px;
+  width: 60px;
+}
+
+.temp{
+
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0;
+  color:#0a2540
+}
+
+.sweet {
+
+margin-top: 10px;
+font-size: 14px;
+color: #e0e5e9;
+font-style: italic,bold;
+
+}
+
+
+.week {
+display: flex;
+gap: 10px;
+margin-top: 15px;
+
+}
+
+
+.day{
+  background: rgba(255,255,255,0.15);
+  padding: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px) ;
+  text-align: center;
+  color: white;
+}
+
+* {
+  box-sizing: border-box
+}
+
+:root {
+  --color-1: orchid;
+  --color-2: hotpink;
+  --color-3: deeppink;
+  --color-4: mediumorchid;
+  --color-5: pink;
+}
+
+
+.wrapper {
+ 
+  line-height: 1;
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  min-height: calc(10vh - 1px);
+}
+
+h1 {
+  font-family: "Exo", sans-serif;
+  font-size: 6vw;  /* CHANGED: Made smaller from 6vw to 4vw */
+  font-weight: 900;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin: auto;
+  text-transform: uppercase;
+  background: linear-gradient(219deg,
+  orchid 20%,
+  hotpink 40%,
+  deeppink 60%,
+  mediumorchid 80%,
+  pink 100%
+);
+
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
+
+.container {
+  padding: 1.5rem;   
+  text-align: center;
+  
+}
+
+
+
+
+  
